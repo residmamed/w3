@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+.nav-item{
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-link{
+    display: flex;
+    flex-direction: row;
+}
+.navbar{
+    width: 100%;
+}
+.nav-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px;
+    font-size: 15px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content-wrapper{
+    background-position: center;
+    background-size: cover;
+    height: 94vh;
+    background-image: url(https://www.w3schools.com/w3images/mac.jpg);
+    filter: grayscale(50%)
+}
+.content-text{
+    font-size: 64px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+    padding: 10px 0;
+}
+.content-text2{
+    padding: 10px 0;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Raleway',sans-serif;
+}
+.body{
+    line-height: 1.8;
+    font-family: "Raleway", sans-serif;
+}
+.content-text-body{
+    padding: 48px;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+.content-button{
+    font-size: 18px;
+    padding: 12px 24px;
+    border-style: none;
+    color: #000;
+    opacity: 0.60;
+    font-family: 'Raleway',sans-serif;
+    margin-top: 16px;
+}
+.content-button:hover{
+    opacity: 0.80;
+}
+.cards-title{
+    padding: 128px 16px;
+    text-align: center;
+}
+.cards-title h1{
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    margin: 10px 0;
+}
+.cards-title p{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin: 18px 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.icon{
+    font-size: 64px;
+}
+.card{
+    padding: 0 8px;
+}
+.card-title{
+    font-size: 18px !important;
+    margin: 18px 0 !important;
+    font-family: "Raleway", sans-serif;
+}
+.card-about{
+    font-size: 15px !important;
+    margin: 15px 0 !important;
+    font-family: "Raleway", sans-serif;
+}
+.works-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.works-title{
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #000;
+}
+.works-about{
+    margin: 15px 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    color: #000;
+}
+.works-button{
+    margin: 15px 0;
+    font-size: 15px;
+    padding: 8px 16px;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    background: #000;
+    border-style: none;
+}
+.works-button:hover{
+    color: #000;
+    background: #969494;
+}
+.team{
+    padding: 128px 16px;
+}
+.team-title{
+    font-size: 24px;
+    color: #000;
+    margin: 10px 0;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.team-about{
+    display: flex;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    margin: 18px 0px;
+    color: #000;
+    font-size: 18px;
+}
+.team-cadro{
+    display: flex;
+    flex-direction:row ;
+    padding: 0 8px;
+    margin:64px 0 0 0 ;
+}
+.team-member{
+    padding: 0 8px;
+    margin: 0 0 16px 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+}
+.member-about{
+    padding: 16px 16px;
+}
+.member-name{
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+}
+.member-job{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.member-button{
+    text-transform: uppercase;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 13px 16px;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    border-style: none;
+}
+.member-button:hover{
+    background-color: lightgray;
+}
+.number-line-about{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff!important;
+    background-color: #616161!important;
+}
+.number-line{
+    background-color: #616161!important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 64px 0;
+}
+.number-line-number{
+    font-size: 36px;
+    font-family: "Raleway", sans-serif;
+}
+.number-line-names{
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+.work-container{
+    padding: 128px 16px;
+    font-family: "Raleway", sans-serif;
+    background:#fff;
+}
+.work-container-title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.ourwork{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+}
+.ourwork-2{
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin: 18px 0;
+}
+.work-photos{
+    display: flex;
+    box-sizing: inherit;
+}
+.ourskills{
+    padding: 64px 16px;
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+}
+.ourskills-title{
+    font-size: 24px;
+    margin: 10px 0;
+}
+.progress-bar{
+    font-size: 15px;
+    height: 27px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background:linear-gradient(to right,#616161 90%, #9e9e9e 10%);
+}
+.progress-bar2{
+    font-size: 15px;
+    height: 27px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background:linear-gradient(to right,#616161 85%, #9e9e9e 15%);
+}
+.progress-bar3{
+    font-size: 15px;
+    height: 27px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background:linear-gradient(to right,#616161 70%, #9e9e9e 30%);
+}
+.pricing{
+    background: #616161;
+    padding: 128px 16px;
+}
+.pricing-card-name{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    padding: 32px 16px;
+    color: white;
+    background: #000;
+}
+.pricing-card{
+    width: 32.2%;
+}
+.buy-section{
+    padding: 16px;
+    color:black;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #ddd;border-style:inset;
+}
+.signup-section{
+    padding: 24px 16px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+.signup-button{
+    background: #000;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 16.5px 24px;
+    font-family: "Raleway", sans-serif;
+}
+.signup-button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.contact{
+    padding: 128px 16px;
+    background: #f1f1f1;
+}
+.input{
+    margin: 10px 0;
+    width: 99%;
+    padding: 8px ;
+    border: 0.5px solid #ddd;
+    border-style:inset;
+    border-radius: 0;
+}
+.tothetop-button{
+    border-style: none;
+    background: white;
+    color: black;
+    padding: 12px 16px;
+}
+.tothetop-button:hover{
+    filter: grayscale(25%);
+}
